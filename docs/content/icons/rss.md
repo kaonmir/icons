@@ -1,9 +1,7 @@
 ---
-title: RSS
+title: "rss"
 categories:
-  - Communications
+  - Brand
 tags:
-  - atom
-  - feed
-  - xml
+  - brand
 ---

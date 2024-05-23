@@ -1,7 +1,7 @@
 ---
-title: Signal
+title: "signal"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

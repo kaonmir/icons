@@ -1,7 +1,7 @@
 ---
-title: Circle
+title: "circle"
 categories:
-  - Shapes
+  - Brand
 tags:
-  - shape
+  - brand
 ---

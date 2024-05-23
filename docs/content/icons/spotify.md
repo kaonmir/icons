@@ -1,7 +1,7 @@
 ---
-title: Spotify
+title: "spotify"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

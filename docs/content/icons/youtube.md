@@ -1,9 +1,7 @@
 ---
-title: Youtube
+title: "youtube"
 categories:
   - Brand
 tags:
-  - social
-  - video
-  - google
+  - brand
 ---

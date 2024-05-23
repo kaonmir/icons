@@ -1,8 +1,7 @@
 ---
-title: Wechat
+title: "wechat"
 categories:
   - Brand
 tags:
-  - social
-  - messaging
+  - brand
 ---

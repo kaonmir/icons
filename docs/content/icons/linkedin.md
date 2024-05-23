@@ -1,8 +1,7 @@
 ---
-title: Linkedin
+title: "linkedin"
 categories:
   - Brand
 tags:
-  - social
-  - microsoft
+  - brand
 ---

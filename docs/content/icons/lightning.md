@@ -1,9 +1,7 @@
 ---
-title: Lightning
+title: "lightning"
 categories:
-  - Weather
+  - Brand
 tags:
-  - storm
-  - thunder
-  - bolt
+  - brand
 ---

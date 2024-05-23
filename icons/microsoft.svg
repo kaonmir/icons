@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-  class="bi bi-microsoft" viewBox="0 0 16 16">
-  <path d="M7.462 0H0v7.19h7.462zM16 0H8.538v7.19H16zM7.462 8.211H0V16h7.462zm8.538 0H8.538V16H16z" />
+<svg role="img" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Microsoft</title>
+  <path
+    d="M0 0v11.408h11.408V0zm12.594 0v11.408H24V0zM0 12.594V24h11.408V12.594zm12.594 0V24H24V12.594z" />
 </svg>

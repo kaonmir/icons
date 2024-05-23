@@ -1,7 +1,7 @@
 ---
-title: Slack
+title: "slack"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

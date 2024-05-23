@@ -1,7 +1,7 @@
 ---
-title: Twitch
+title: "twitch"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

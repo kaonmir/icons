@@ -1,9 +1,7 @@
 ---
-title: Substack
+title: "substack"
 categories:
   - Brand
 tags:
-  - social
-  - blog
-added: 1.11.0
+  - brand
 ---

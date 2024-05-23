@@ -1,9 +1,7 @@
 ---
-title: Stripe
+title: "stripe"
 categories:
   - Brand
 tags:
-  - payments
-  - commerce
-added: 1.10.0
+  - brand
 ---

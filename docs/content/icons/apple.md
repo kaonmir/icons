@@ -1,9 +1,7 @@
 ---
-title: Apple
+title: "apple"
 categories:
   - Brand
 tags:
-  - aapl
-  - mac
-  - macintosh
+  - brand
 ---

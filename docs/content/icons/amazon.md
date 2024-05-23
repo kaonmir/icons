@@ -1,8 +1,7 @@
 ---
-title: Amazon
+title: "amazon"
 categories:
   - Brand
 tags:
-  - aws
-added: 1.11.0
+  - brand
 ---

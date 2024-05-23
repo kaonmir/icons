@@ -1,7 +1,7 @@
 ---
-title: Steam
+title: "steam"
 categories:
   - Brand
 tags:
-  - gaming
+  - brand
 ---

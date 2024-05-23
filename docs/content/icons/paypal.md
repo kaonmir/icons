@@ -1,7 +1,7 @@
 ---
-title: Paypal
+title: "paypal"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

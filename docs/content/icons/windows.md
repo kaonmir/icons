@@ -1,9 +1,7 @@
 ---
-title: Windows
+title: "windows"
 categories:
   - Brand
 tags:
-  - microsoft
-  - msft
-  - windows
+  - brand
 ---

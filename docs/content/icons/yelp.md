@@ -1,8 +1,7 @@
 ---
-title: Yelp
+title: "yelp"
 categories:
   - Brand
 tags:
-  - social
-  - reviews
+  - brand
 ---

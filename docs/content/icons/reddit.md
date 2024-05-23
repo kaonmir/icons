@@ -1,7 +1,7 @@
 ---
-title: Reddit
+title: "reddit"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

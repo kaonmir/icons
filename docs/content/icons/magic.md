@@ -1,7 +1,7 @@
 ---
-title: Magic
+title: "magic"
 categories:
-  - Real World
+  - Brand
 tags:
-  - "magic stick"
+  - brand
 ---

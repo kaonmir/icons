@@ -1,8 +1,7 @@
 ---
-title: Telegram
+title: "telegram"
 categories:
   - Brand
 tags:
-  - social
-  - chat
+  - brand
 ---

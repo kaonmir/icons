@@ -1,7 +1,7 @@
 ---
-title: Sunrise
+title: "sunrise"
 categories:
-  - Weather
+  - Brand
 tags:
-  - dawn
+  - brand
 ---

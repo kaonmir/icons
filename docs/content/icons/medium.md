@@ -1,7 +1,7 @@
 ---
-title: Medium
+title: "medium"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

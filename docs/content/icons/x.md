@@ -1,14 +1,7 @@
 ---
-title: X
+title: "x"
 categories:
-  - Alerts, warnings, and signs
+  - Brand
 tags:
-  - x
-  - delete
-  - remove
-  - reset
-  - clear
-  - cancel
-  - close
-  - exit
+  - brand
 ---

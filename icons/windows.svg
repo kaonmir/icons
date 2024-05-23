@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-  class="bi bi-windows" viewBox="0 0 16 16">
+<svg role="img" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Windows</title>
   <path
-    d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z" />
+    d="M0,0H11.377V11.372H0ZM12.623,0H24V11.372H12.623ZM0,12.623H11.377V24H0Zm12.623,0H24V24H12.623" />
 </svg>

@@ -1,11 +1,7 @@
 ---
-title: GitHub
+title: "github"
 categories:
   - Brand
 tags:
-  - social
-  - microsoft
-  - vcs
-  - git
-added: 1.11.0
+  - brand
 ---

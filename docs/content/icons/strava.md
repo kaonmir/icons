@@ -1,7 +1,7 @@
 ---
-title: Strava
+title: "strava"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

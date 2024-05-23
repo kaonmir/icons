@@ -1,7 +1,7 @@
 ---
-title: Snapchat
+title: "snapchat"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

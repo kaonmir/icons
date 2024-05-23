@@ -1,7 +1,7 @@
 ---
-title: Alipay
+title: "alipay"
 categories:
   - Brand
 tags:
-  - payments
+  - brand
 ---

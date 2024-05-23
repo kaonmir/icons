@@ -1,10 +1,7 @@
 ---
-title: Gitlab
+title: "gitlab"
 categories:
   - Brand
 tags:
-  - social
-  - vcs
-  - git
-added: 1.11.0
+  - brand
 ---

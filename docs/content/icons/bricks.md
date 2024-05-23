@@ -1,8 +1,7 @@
 ---
-title: Bricks
+title: "bricks"
 categories:
-  - Real world
+  - Brand
 tags:
-  - wall
-  - firewall
+  - brand
 ---

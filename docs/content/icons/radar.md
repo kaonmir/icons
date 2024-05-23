@@ -1,11 +1,7 @@
 ---
-title: Radar
+title: "radar"
 categories:
-  - Geo
+  - Brand
 tags:
-  - geography
-  - map
-  - pin
-  - location
-added: 1.11.0
+  - brand
 ---

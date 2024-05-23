@@ -1,10 +1,7 @@
 ---
-title: Rocket
+title: "rocket"
 categories:
-  - Real world
+  - Brand
 tags:
-  - ship
-  - rocketship
-  - spaceship
-added: 1.10.0
+  - brand
 ---

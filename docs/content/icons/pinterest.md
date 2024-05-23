@@ -1,7 +1,7 @@
 ---
-title: Pinterest
+title: "pinterest"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

@@ -1,7 +1,7 @@
 ---
-title: Vimeo
+title: "vimeo"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

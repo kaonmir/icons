@@ -1,7 +1,7 @@
 ---
-title: Tiktok
+title: "tiktok"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---

@@ -1,8 +1,7 @@
 ---
-title: Wikipedia
+title: "wikipedia"
 categories:
   - Brand
 tags:
-  - encyclopedia
-added: 1.10.0
+  - brand
 ---

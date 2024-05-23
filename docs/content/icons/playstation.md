@@ -1,8 +1,7 @@
 ---
-title: Playstation
+title: "playstation"
 categories:
   - Brand
 tags:
-  - sony
-  - gaming
+  - brand
 ---

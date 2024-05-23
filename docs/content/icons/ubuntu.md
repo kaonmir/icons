@@ -1,8 +1,7 @@
 ---
-title: Ubuntu
+title: "ubuntu"
 categories:
   - Brand
 tags:
-  - linux
-  - distro
+  - brand
 ---

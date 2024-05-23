@@ -1,10 +1,7 @@
 ---
-title: Markdown
+title: "markdown"
 categories:
-  - Badges
+  - Brand
 tags:
-  - markdown
-  - md
-  - content
-  - writing
+  - brand
 ---

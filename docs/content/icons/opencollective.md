@@ -1,8 +1,7 @@
 ---
-title: Opencollective
+title: "opencollective"
 categories:
   - Brand
 tags:
-  - social
-added: 1.11.0
+  - brand
 ---

@@ -1,8 +1,7 @@
 ---
-title: Xbox
+title: "xbox"
 categories:
   - Brand
 tags:
-  - microsoft
-  - gaming
+  - brand
 ---

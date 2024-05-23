@@ -1,11 +1,7 @@
 ---
-title: Threads
+title: "threads"
 categories:
   - Brand
 tags:
-  - social
-  - chat
-  - instagram
-  - meta
-added: 1.11.0
+  - brand
 ---

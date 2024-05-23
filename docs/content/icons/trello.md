@@ -1,9 +1,7 @@
 ---
-title: Trello
+title: "trello"
 categories:
   - Brand
 tags:
-  - kanban
-  - board
-added: 1.10.0
+  - brand
 ---

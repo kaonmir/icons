@@ -1,8 +1,7 @@
 ---
-title: Square
+title: "square"
 categories:
-  - Shapes
+  - Brand
 tags:
-  - shape
-  - rectangle
+  - brand
 ---

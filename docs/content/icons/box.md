@@ -1,9 +1,7 @@
 ---
-title: Box
+title: "box"
 categories:
-  - Real world
+  - Brand
 tags:
-  - cardboard
-  - package
-  - cube
+  - brand
 ---

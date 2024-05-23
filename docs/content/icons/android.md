@@ -1,8 +1,7 @@
 ---
-title: Android
+title: "android"
 categories:
   - Brand
 tags:
-  - google
-  - droid
+  - brand
 ---

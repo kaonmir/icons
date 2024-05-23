@@ -1,7 +1,7 @@
 ---
-title: Quora
+title: "quora"
 categories:
   - Brand
 tags:
-  - social
+  - brand
 ---
