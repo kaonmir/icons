@@ -102,10 +102,22 @@
         <div class="col-lg-4 mb-4">
           <h2 class="fs-3">Download</h2>
           <p>Download the PNG/SVG to use or edit.</p>
-          <!-- TODO Width를 동적으로 만들 UX 찾기 -->
+            <form id="downloadForm" class="d-flex" style="width: 500px">
+            <div class="me-2" style="display: inline-block; width: 100px">
+              <label for="downloadWidth" class="form-label">Width</label>
+              <input type="number" id="downloadWidth" class="form-control mb-3" style="height: 32px" value="200" min="1" max="1000" required>
+            </div>
+            <div class="me-2" style="display: inline-block; width: 100px">
+              <label for="downloadColor" class="form-label">Color</label>
+              <input type="color" id="downloadColor" class="form-control mb-3" style="height: 32px" value="#000000" required>
+            </div>
+            </form>
+          </form>
+          <!-- TODO Width,color를 동적으로 만들 UX 찾기 -->
           <a  id="downloadPNG"
               data-filename="{{ .File.TranslationBaseName }}.png"
               data-width="200"
+              data-color="#000000"
               data-svg-href="{{ print .Site.BaseURL $svgPath }}"
               href="#" class="btn btn-bd-primary mb-4" download>
               Download PNG

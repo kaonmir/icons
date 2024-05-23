@@ -16,7 +16,20 @@
     return targetHeight
   }
 
-  function convertSVGtoPNG(svgString, width, callback) {
+  function colorSVG(svgString, color) {
+    const parser = new DOMParser();
+    const svgDoc = parser.parseFromString(svgString, 'image/svg+xml');
+    const pathElements = svgDoc.getElementsByTagName('path');
+
+    // Change the fill color to red for all path elements
+    for (let i = 0; i < pathElements.length; i++) {
+      pathElements[i].setAttribute('fill', color)
+    }
+
+    return new XMLSerializer().serializeToString(svgDoc)
+  }
+
+  function convertSVGtoPNG(svgString, width, color, callback) {
     const height = getSVGHeightFromWidth(svgString, width)
 
     // Create an image element
@@ -30,8 +43,10 @@
     canvas.width = width
     canvas.height = height
 
+    const coloredSvgString = colorSVG(svgString, color)
+
     // Create a Blob from the SVG string
-    const blob = new Blob([svgString], {
+    const blob = new Blob([coloredSvgString], {
       type: 'image/svg+xml'
     })
     const url = URL.createObjectURL(blob)
@@ -65,13 +80,16 @@
     document.getElementById('downloadPNG').addEventListener('click', function (event) {
       event.preventDefault()
 
+
       const svgUrl = event.target.getAttribute('data-svg-href')
       const filename = event.target.getAttribute('data-filename') || 'download.png'
-      const targetWidth = parseInt(event.target.getAttribute('data-width'), 10) || 200
+      const targetWidth = document.getElementById('downloadWidth').value || 100
+      const color = document.getElementById('downloadColor').value || 'red'
 
+      console.log(svgUrl, filename, targetWidth, color);
       fetch(svgUrl)
         .then(response => response.text())
-        .then(svgData => convertSVGtoPNG(svgData, targetWidth, (pngDataUrl) => {
+        .then(svgData => convertSVGtoPNG(svgData, targetWidth, color, (pngDataUrl) => {
           console.log(pngDataUrl)
 
           var element = document.createElement('a')
