@@ -5,7 +5,6 @@
   </head>
   <body id="icons-body">
     <main class="container-xxl bd-gutter" id="content">
-      "{{ print .Site.BaseURL "assets/js/vendor/bootstrap.bundle.min.js" }}"
       {{ partialCached "icons" . "home" }}
       {{ .Content }}
     </main>

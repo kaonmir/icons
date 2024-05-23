@@ -1,6 +1,5 @@
 <script async src="{{ print .Site.BaseURL "assets/js/vendor/bootstrap.bundle.min.js" }}"></script>
 
-
 {{- $esbuildOptions := dict "target" "es2019" -}}
 
 {{- if eq hugo.Environment "production" -}}
@@ -13,4 +12,7 @@
 {{- end }}
 
 {{- $application := resources.Get "js/application.js" | js.Build $esbuildOptions | resources.Copy "/assets/js/application.js" -}}
+
+{{- $application := resources.Get "js/convert.js" | js.Build $esbuildOptions | resources.Copy "/assets/js/convert.js" -}}
+
 <script async src="{{ $application.Permalink | absURL }}"></script>

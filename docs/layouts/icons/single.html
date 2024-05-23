@@ -11,7 +11,7 @@
           <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
         </ol>
       </nav>
-
+      
       <div class="row align-items-md-center">
         <div class="col-md-6 col-lg-8">
           <h1>{{ .Title }}</h1>
@@ -22,9 +22,6 @@
             {{ with .Params.categories }}<li><strong>Category:</strong> {{ delimit . ", " }}</li>{{ end }}
           </ul>
           {{- end }}
-        </div>
-        <div class="col-md-6 col-lg-4">
-          {{ partialCached "ads" . }}
         </div>
       </div>
 
@@ -104,10 +101,16 @@
         </div>
         <div class="col-lg-4 mb-4">
           <h2 class="fs-3">Download</h2>
-          <p>Download the SVG to use or edit.</p>
-          <!-- TODO -->
-          <!-- <a href="{{ $svgPath }}" class="btn btn-bd-primary mb-4" download>Download PNG</a> -->
-          <a href="{{ $svgPath }}" class="btn btn-bd-light mb-4" download>Download SVG</a>
+          <p>Download the PNG/SVG to use or edit.</p>
+          <!-- TODO Width를 동적으로 만들 UX 찾기 -->
+          <a  id="downloadPNG"
+              data-filename="{{ .File.TranslationBaseName }}.png"
+              data-width="200"
+              data-svg-href="{{ print .Site.BaseURL $svgPath }}"
+              href="#" class="btn btn-bd-primary mb-4" download>
+              Download PNG
+          </a>
+          <a href="{{ print .Site.BaseURL $svgPath }}" class="btn btn-bd-light mb-4" download>Download SVG</a>
 
           <h2 class="fs-3">Icon font</h2>
           <p>Using the web font? Copy, paste, and go.</p>
