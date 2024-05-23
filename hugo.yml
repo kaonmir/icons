@@ -1,7 +1,6 @@
 languageCode:           "en"
 title:                  "Bootstrap Icons"
-baseURL:                "https://icons.getbootstrap.com/devops"
-# baseURL:                "https://icons.getbootstrap.com"
+baseURL:                "https://icons.getbootstrap.com"
 enableInlineShortcodes: true
 enableRobotsTXT:        true
 metaDataFormat:         "yaml"
