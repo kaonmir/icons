@@ -1,0 +1,17 @@
+stages:
+  - build
+  - pages
+
+default:
+  image: node:20
+
+build:
+  stage: build
+  script:
+    - npm ci
+    - npm run docs-build
+
+pages:
+  stage: pages
+  script:
+    - echo "Deploying!"
