@@ -14,4 +14,8 @@ build:
 pages:
   stage: pages
   script:
+    - cp _site public
     - echo "Deploying!"
+  artifacts:
+    paths:
+      - public  
