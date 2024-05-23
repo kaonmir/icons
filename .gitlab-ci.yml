@@ -12,6 +12,10 @@ build:
   script:
     - npm ci
     - npm run docs-build
+  artifacts:
+    paths:
+      - _site
+    expire_in: "2 hours"
 
 pages:
   stage: pages
